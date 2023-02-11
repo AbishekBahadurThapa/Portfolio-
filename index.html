@@ -13,62 +13,62 @@
     <div class="container">
         <nav>
             <img src="portfoliowk.png" class="logo">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#Hobbies">Hobbies</a></li>
                 <li><a href="#Family">Family</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <i class="fa-regular fa-circle-xmark"></i>
+                <li><a href="#contact">References</a></li>
             </ul>
-            <i class="fa-solid fa-bars"></i>
-        </nav>
+            </nav>
         <div class="header-text">
             <p>Website Designer</p>
             <h1>Hi, I'm <span>Abishek Bahadur</span><br>Thapa From Nepal</h1>
         </div>
     </div>
 </div>
+<!---------about---------->
 <div id="about">
     <div class="container">
         <div class="row">
-            <img src="myself.png">
-       
-        <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum repudiandae possimus reiciendis repellendus culpa praesentium, est eveniet nulla maiores explicabo similique facere fugit, ipsa impedit minus deserunt numquam tenetur?</p>
-        
-            <div class="tab-titles"></div>
-               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-               <p class="tab-links" onclick="opentab('experience')" >Experience</p>
-               <p class="tab-links" onclick="opentab('education')">Education</p>
+            <div class="about-col-1">
+               <img src="myself.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam vel esse voluptatem, atque qui quos, pariatur minus ipsa fuga minima architecto, voluptate porro accusantium officiis repellendus consectetur eaque dolore!</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing web/App interferences</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing web/App interferences</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/App interferences</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
         </div>
-        <div class="tab-contents avtive-tab" id="skills">
-            <ul>
-                <li><span>Presentation</span><br>Group Presentation</li>
-                <li<span>Web Design</span><br>Website work></li> 
-                <li<span>Coding</span><br>Coding work></li> 
-            </ul>
-        </div>
-        <div class="tab-contents id="experience>
-            <ul>
-                <li><span>2020-2022</span><br>Personal/Group presentation</li>
-                <li<span>2022-Current</span><br>Team Based Learning</li> 
-             a   <li<span>2022-Current</span><br>Programming Language</li> 
-            </ul>
-        </div>
-           <div class="tab-content" id="education">
-            <ul>
-                <li><span>2020-2022</span><br>Personal/Group presentation</li>
-                <li<span>2022-Current</span><br>Team Based Learning</li> 
-                <li<span>2022-Current</span><br>Programming Language</li> 
-            </ul>
-         </div> 
-         </div>
-       </div>
-   </div>
-  </div>
+    </div>
+</div>
 </div>
 <!--- ------services-------- -->
 <div id="services">
@@ -134,8 +134,6 @@
                 <img src="IMG_20200826_164917.jpg">
                 <div class="layer">
                     <h3>Son</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis tempore facere eveniet ipsam? Enim distinctio numquam, qui totam quisquam velit nesciunt inventore iure, eveniet beatae animi? Ullam at minima animi!</p>
-                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
                   
               </div>
@@ -143,8 +141,6 @@
                 <img src="IMG20201017171347.jpg">
                 <div class="layer">
                     <h3>Father Mother</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, odit. Asperiores, officiis, quam, accusantium ullam nesciunt odio minima corrupti iusto esse illum aspernatur repudiandae id earum eos unde distinctio libero?</p>
-                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
                 
             </div>
@@ -152,8 +148,6 @@
                 <img src="IMG_20201028_205519.jpg">
                 <div class="layer">
                     <h3>Daughter</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloremque aliquam, porro reprehenderit officiis soluta molestias ab laboriosam distinctio cumque? Nemo, et commodi similique eligendi velit minus accusantium tempore corporis.</p>
-                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
 
                 </div>
              
@@ -187,12 +181,24 @@
             </div>
         </div>
     </div>
+<!-----------References---------->
+<div id="References">
+    <div class="container">
+        <h1 class="sub-title">References</h1>
+         <p style="font-size:30px">This website was made by Abishek Bahadur <br>Thapa<br>Abishek 2329768</p><br>
+         <div class="References-icon">
+            <a href="https://youtu.be/0YFrGy_mzjY" target="_blank">https://youtu.be/0YFrGy_mzjY</a>
+         </div>
+    </div>
+</div>
     <div class="copyright">
         <p>Copyright @ Abishek. Made with <i class="fa-solid fa-heart"></i> by Portfolio Website</p>
     </div>
 </div>
-<script>
 
+
+<script>
+   
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -206,6 +212,21 @@
         event.currentTargrt.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     
+    }
+
+</script>
+
+
+<script>
+
+
+    var sidemenu = document .getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function openmenu(){
+        sidemenu.style.right = "-200";
     }
 </script>
 </body>
