@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/5fc2230bea.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
 <div id="header">
@@ -47,23 +47,24 @@
             </div>
             <div class="tab-contents active-tab" id="skills">
                 <ul>
-                    <li><span>UI?UX</span><br>Designing web/App interferences</li>
-                    <li><span>Web Development</span><br>Web app Development</li>
-                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <li><span>Presentation</span><br>Personal/Group</li>
+                    <li><span>Web Development</span><br>Web Design</li>
+                    <li><span>Coding</span><br>Programming</li>
                 </ul>
             </div>
             <div class="tab-contents" id="education">
                 <ul>
-                    <li><span>UI?UX</span><br>Designing web/App interferences</li>
-                    <li><span>Web Development</span><br>Web app Development</li>
-                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <li><span>2008-2014</span><br>Shree Ram JYOTI Secondary School</li>
+                    <li><span>2015-2019</span><br>Barahi Awasiya Madhyamik Bidalaya </li>
+                    <li><span>2020-2022</span><br>Global College of Management</li>
+                    <li><span>2022-Current</span><br>Herald College Kathmandu</li>
                 </ul>
             </div>
             <div class="tab-contents" id="experience">
                 <ul>
-                    <li><span>UI/UX</span><br>Designing web/App interferences</li>
-                    <li><span>Web Development</span><br>Web app Development</li>
-                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <li><span>HTML/CSS</span><br>Web site</li>
+                    <li><span>Figma</span><br>App Design</li>
+                    <li><span>Writing</span><br>informal/formal</li>
                 </ul>
             </div>
         </div>
@@ -132,24 +133,19 @@
         <div class="Family-myself">
             <div class="Family">
                 <img src="IMG_20200826_164917.jpg">
-                <div class="layer">
                     <h3>Son</h3>
-                </div>
-                  
               </div>
             <div class="Family">
                 <img src="IMG20201017171347.jpg">
-                <div class="layer">
+                
                     <h3>Father Mother</h3>
-                </div>
+                
                 
             </div>
             <div class="Family">
                 <img src="IMG_20201028_205519.jpg">
-                <div class="layer">
-                    <h3>Daughter</h3>
-
-                </div>
+            
+                    <h3>Daughter</h3> 
              
             </div>
         </div>
@@ -196,25 +192,28 @@
     </div>
 </div>
 
-
-<script>
+<script src="https://kit.fontawesome.com/5fc2230bea.js" crossorigin="anonymous"></script>
+    <script>
    
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTargrt.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
     
-    }
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        
+        }
+    
+    </script>
 
-</script>
+
+
 
 
 <script>
